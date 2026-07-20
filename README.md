@@ -1,4 +1,4 @@
-# Website Himpunan (mirip hmit-its.com) — Laravel
+# Website Himpunan Mahasiswa Teknologi Informasi TELU — Laravel
 
 Paket ini berisi **kode aplikasi kustom** (Models, Controllers, Migrations, Views, Routes, Seeder)
 untuk sebuah website himpunan mahasiswa lengkap dengan:
@@ -11,11 +11,6 @@ untuk sebuah website himpunan mahasiswa lengkap dengan:
 - **Kontak** — form kontak (kirim email ke pengurus)
 - **Panel Admin** (login) — CRUD Berita (dengan upload gambar), Kategori, Galeri,
   Pengurus/Struktur Organisasi, dan Edit halaman Profil/Tentang
-
-> Catatan: `hmit-its.com` adalah website React/JS (SPA) sehingga isi kontennya tidak bisa
-> saya salin persis. Struktur & fitur di bawah ini dibuat menyerupai website himpunan pada
-> umumnya (Beranda, Tentang, Struktur, Berita, Galeri, Kontak) dan bisa Anda sesuaikan
-> teks/warna/logo-nya lewat panel admin maupun langsung di file Blade.
 
 ---
 
@@ -63,7 +58,7 @@ php artisan migrate --seed
 ```
 
 Seeder ini akan membuat:
-- Akun admin login: **admin@hmit-its.com** / **password123** (⚠️ segera ganti setelah login pertama)
+- Akun admin login: (⚠️ segera ganti setelah login pertama)
 - 4 kategori berita contoh (Pengumuman, Kegiatan, Prestasi, Kaderisasi)
 - Konten "Tentang" default (bisa langsung diedit lewat admin)
 
